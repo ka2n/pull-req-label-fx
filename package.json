@@ -1,0 +1,40 @@
+{
+  "name": "pull-req-label",
+  "title": "pull-req-label",
+  "id": "jid1-kA4tKADQ7Ybudw",
+  "description": "a basic add-on",
+  "author": "",
+  "license": "The MIT License (http://www.opensource.org/licenses/mit-license.php)",
+  "version": "0.1",
+  "preferences": [
+    {
+      "name": "github_username",
+      "title": "Github: ユーザー名",
+      "type": "string"
+    },
+    {
+      "name": "github_password",
+      "title": "Github: パスワード",
+      "description": "Personal Access Tokensを推奨",
+      "type": "string"
+    },
+    {
+      "name": "ghe_api_prefix",
+      "title": "GHE: APIプレフィックス",
+      "description": "\"https://yourdomain.example.com/api/v3/\"等",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "ghe_username",
+      "title": "GHE: ユーザー名",
+      "type": "string"
+    },
+    {
+      "name": "ghe_password",
+      "title": "GHE: パスワード",
+      "description": "Personal Access Tokensを推奨",
+      "type": "string"
+    }
+  ]
+}
